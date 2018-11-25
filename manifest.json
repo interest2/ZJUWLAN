@@ -1,7 +1,7 @@
 {  
   "name": "ZJUWLAN",
   "manifest_version":2,
-  "version": "4.0.1",  
+  "version": "4.1.1",  
   "description": "浙大校园网自动登录",
   "icons":{
     "128": "images/icon128.png"
@@ -12,7 +12,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://net.zju.edu.cn/srun_portal_pc.php?url=&ac_id=3"],
+      "matches": ["https://net.zju.edu.cn/*"],
       "js": ["main.js"]
     }
   ]
